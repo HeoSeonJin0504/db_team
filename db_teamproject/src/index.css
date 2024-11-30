@@ -1,5 +1,33 @@
+@font-face {
+  font-family: "PretendardLight";
+  src: url("./fonts/Pretendard-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PretendardMedium";
+  src: url("./fonts/Pretendard-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PretendardBold";
+  src: url("./fonts/Pretendard-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
+  font-family: "PretendardLight", Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body,
+#root {
+  width: 100vw;
+  min-height: 100vh;
 }
